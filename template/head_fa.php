@@ -1,5 +1,7 @@
 <?php 
-	if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) if(!ob_start("ob_gzhandler")) ob_start();
+    error_reporting(E_ALL ^ E_NOTICE);
+    
+	//if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) if(!ob_start("ob_gzhandler")) ob_start();
 	
 	$expires = 7 * 24 * 60 * 60;
 	header("Pragma: public");
