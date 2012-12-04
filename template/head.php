@@ -1,9 +1,9 @@
 <?php 
-	if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) if(!ob_start("ob_gzhandler")) ob_start();
+	//if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) if(!ob_start("ob_gzhandler")) ob_start();
 	
 	$expires = 7 * 24 * 60 * 60;
 	header("Pragma: public");
-	header ("cache-control: must-revalidate");
+	header("cache-control: must-revalidate");
 	header("Cache-Control: maxage=".$expires);
 	header('Expires: ' . gmdate('D, d M Y H:i:s', time()+$expires) . ' GMT');
 ?>
