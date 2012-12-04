@@ -2,7 +2,7 @@
 <body <?php if( $pageId == 'home-page' ) echo "onLoad='homeImageSlider();'" ?> >
 
 <!--[if lt IE 8]>
-    <p class="chromeframe"><br/>You are using an <b>outdated</b> browser. Please <a href="http://browsehappy.com/" target="_blank"><b>upgrade your browser</b></a> or <a href="http://www.chromeframe.ir/" target="_blank"><b>install this plugin</b></a> to improve your experience.<br/><br/></p><br/>
+    <p class="chromeframe">You are using an <b>outdated</b> browser. Please <a href="http://browsehappy.com/" target="_blank"><b>upgrade your browser</b></a> or <a href="http://www.chromeframe.ir/" target="_blank"><b>install this plugin</b></a> to improve your experience.</p>
 <![endif]-->
 
 <!-- start === page container ===== -->
