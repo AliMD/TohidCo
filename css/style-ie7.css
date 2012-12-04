@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* setting ========================================= */
+.form-wrraper .form_textarea #message {
+	margin-top:1px;
+}
+.form-wrraper .form_fields .contact_form_field {
+	margin-top:1px;
+	margin-bottom:1px;
+}
+.required {
+	margin-bottom:59px;
+}
+
