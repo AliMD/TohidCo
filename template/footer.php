@@ -18,7 +18,7 @@
         </div>
         <div class="copyright">
         	<div class="left">
-        	<a class="admin" onclick="this.href='admin/login.php'" target="_blank">A</a> <a href="http://www.1dws.com/">1Dws.com</a> website. Design &amp; Scripted by <a href="http://www.1dws.com/members">&lt;1Dws /&gt; team</a>.
+        	<a class="admin" onclick="this.href='admin/login.php'" target="_blank">A</a> <a href="http://www.1dws.com/">1Devs</a> website. Design &amp; Scripted by TheOneDevelopers</a>.
             </div>
 
         	<div class="right">Tohid Foundry Industris of Khorasan. &copy; <?php echo gmdate('Y') ?> All rights reserved.</div>
