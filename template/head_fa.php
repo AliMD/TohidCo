@@ -7,13 +7,16 @@
 	header("Cache-Control: maxage=".$expires);
 	header('Expires: ' . gmdate('D, d M Y H:i:s', time()+$expires) . ' GMT');
 ?>
-<!DOCTYPE HTML>
 
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>       <html lang="fa-IR" dir="rtl" class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>          <html lang="fa-IR" dir="rtl" class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>          <html lang="fa-IR" dir="rtl" class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html lang="fa-IR" dir="rtl" class="no-ie"> <!--<![endif]-->
 
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8" />
 
 <title><?php echo $pageTitle; ?> - توحید خراسان</title>
 

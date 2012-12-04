@@ -719,3 +719,12 @@ div.jiggleGallery a.image img {
 .main-container #slider a:hover {
 	text-decoration:none;
 }
+
+/* iE2Wll ==================================================== */
+
+.chromeframe {
+	text-align:center;
+	color:black; 
+	font-size:19px; 
+	background-color:#FFF7A5;
+}
