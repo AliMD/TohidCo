@@ -20,7 +20,7 @@ include('template/header.php');
 <!-- end ===== changeable ============================================================================================================================= -->
 
     </div><!-- end === main content ===== -->
-
+	<div class="videoE"><a href="media/video/tm-video.wmv">Download Video</a></div>
     
 
     <?php include('template/footer.php'); ?>

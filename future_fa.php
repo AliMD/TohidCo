@@ -19,7 +19,7 @@ include('template/header_fa.php');
 
         
 
-        <div class="all-pages-text">
+        <div class="all-pages-text futureFontSize">
 
         
 

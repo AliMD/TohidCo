@@ -21,6 +21,6 @@ include('template/header_fa.php');
 
     </div><!-- end === main content ===== -->
 
-    
+    <div class="video"><a href="media/video/tm-video.wmv">دانلود ویدیو</a></div>
 
     <?php include('template/footer_fa.php'); ?>

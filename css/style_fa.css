@@ -2,18 +2,76 @@
 
 /* set the page ============================================= */
 @font-face {
-	font-family: B Yagut;
-	font-weight: bold;
-	src: url(font/BYAGB.TTF) format("opentype");
+	font-family: 'BNazanin';
+	src: url('css/font/BNazanin.eot');
+	src: url('css/font/BNazanin.eot?#iefix') format('embedded-opentype'),
+	 url('css/font/BNazanin.woff') format('woff'),
+	 url('css/font/BNazanin.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 body {
-	font-family:'B Yagut', Tahoma, Arial;
+	font-family:'BNazanin' !important;
 	/* font-size:13px; */
 	direction:rtl;
 	text-align:right;
 }
 select, input, textarea {
-	font-family:'B Yagut', Tahoma, Arial;
+	font-family:'BNazanin';
+}
+
+.fontSize{
+	font-size:20px !important;
+	
+}
+
+.futureFontSize h4{
+	font-size:20px !important;
+	
+}
+
+.equ_title h3{
+	font-size:23px !important;
+}
+
+h3.equ_title{
+	font-size:30px !important;
+}
+
+.desc p{
+	font-size:17px !important;
+	text-align:justify;
+}
+
+.fontSize h2{
+	font-size:28px !important;
+}
+
+.code{
+	font-size:16px !important;
+}
+
+
+.top-menu li a {
+    font-size: 21px !important;
+}
+
+#products p {
+    margin: 2px 10px !important;
+}
+
+#home-page .titre{
+	padding-right: 60px !important;
+}
+
+.video{
+	text-align: center;
+	font-size: 21px;
+}
+
+.video a{
+	color: #D0981F;
+	text-shadow: 0px 1px 0px #000000;
 }
 
 /* header =================================================== */
@@ -27,7 +85,7 @@ select, input, textarea {
 	float:right;
 }
 .top-menu li a {
-	font-size:16px;
+	font-size:18px;
 }
 .languages-wrpr {
 	text-align:left;
@@ -65,7 +123,7 @@ select, input, textarea {
 	right:0px;
 	width:490px;
 	height:510px;
-	text-align:center;
+	/*text-align:center;*/
 	z-index:200;
 }
 #home-page .slider-right-col_fa {
@@ -76,8 +134,8 @@ select, input, textarea {
 	z-index:100;
 }
 #home-page .titre {
-	font-family:'B Yagut', Tahoma, Arial;
-	font-size:50px;
+	font-family:'BNazanin';
+	font-size:52px;
 }
 #home-page .promo-titre {
 	margin:35px 100px 0 0;
@@ -134,7 +192,7 @@ div.jiggleGallery a.image {
 	width:735px;
 	padding-left:0 !important;
 	padding-right:75px !important;
-	font-size:15px;
+	font-size:19px;
 	min-height:175px;
 }
 .addresses_wrapper div {
@@ -163,22 +221,21 @@ div.jiggleGallery a.image {
 	margin-bottom:51px;
 }
 .form-wrraper .form_fields .contact_form_field,  .form-wrraper .form_buttons .contact_form_btn,  .future_content {
-	font-size:12px;
+	font-size:14px;
 }
 #gallery .gallery_info {
-	font-family:'B Yagut', Tahoma, Arial;
+	font-family:'BNazanin';
 	font-size:12px;
 }
 #gallery .gallery_info h4 {
-	font-size:18px;
+	font-size:20px;
 }
 #products .product_info,  #fancybox-title {
-	font-family:'B Yagut', Tahoma, Arial;
+	font-family:'BNazanin';
 }
 #products .product_wrapper {
-	float:right;
-}
-#fancybox-title {
+	float:right;Š}
+#fancybop-title {
 	margin-right:10px !important;
 	margin-left:0 !important;
 }

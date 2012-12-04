@@ -35,17 +35,16 @@ include('template/header.php');
 
                         <div class="address">
 
-                        	<strong>Mashhad Office:</strong><br />
+                        	<strong>Head Office</strong><br />
 
                             <br />
 
                             <div>
 
-                            SAPCO Building, Television Blvd.<br />
+                            SAPCO Build, TV Blvd,<br />
+                            Mashhad/Iran<br />
 
-                            Phone: 8450954<br />
-
-                            Fax: 8450956
+                            Tel: +98511 8450954
 
                             </div>
 
@@ -55,17 +54,17 @@ include('template/header.php');
 
                         <div class="address">
 
-                        	<strong>Tehran Office:</strong><br />
+                        	<strong>Office: </strong><br />
 
                             <br />
 
                             <div>
 
-                            No. 124, Opposite the Kaj st.<br />
+                            No122., Fatemi St.<br />
 
-                            Fatemi St.<br />
+                            Tehran/Iran<br />
 
-                            Telefax: 88969226
+                            Tel/Fax: +9821 88997242-4
 
                             </div>
 
@@ -81,17 +80,15 @@ include('template/header.php');
 
                             <div>
 
-                            Asian Road, 20km, Mashhad<br />
+                            20km Asian Road, <br />Mashhad/Iran<br />
 
                             Phone: 2463711 (10 Line)<br />
 
-                            Fax: 2463513
+                            Fax: +98511 2463513
 
                             </div>
 
                         </div>
-
-                        
 
                     </div>
 
