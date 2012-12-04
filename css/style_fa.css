@@ -295,3 +295,21 @@ span#fancy_right_ico {
 .eq-contents .back {
 	float:left;
 }
+
+/* ContactInfo ==================================================== */
+
+div.all-pages-text table {
+	color: #BBB;
+	border-bottom: 1px solid #888;
+	margin-top: 40px;
+	font-size: 19px;
+}
+
+div.all-pages-text table td {
+	padding-left: 30px;
+	vertical-align: top;
+}
+
+div.all-pages-text table td.first {
+	padding-right: 40px;
+}
