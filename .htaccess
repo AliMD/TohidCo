@@ -2,14 +2,14 @@ Options -Indexes
 
 RewriteEngine On
 
-RewriteRule ^jqfancybox\.css$ accelerator\.php?file=fancybox-jiggle/jqfancybox.css [L,NC]
-RewriteRule ^jqfancybox\.js$ accelerator\.php?file=fancybox-jiggle/jqfancybox.js [L,NC]
+RewriteRule ^jqfancybox\.css$ fancybox-jiggle/jqfancybox.css [L,NC]
+RewriteRule ^jqfancybox\.js$ fancybox-jiggle/jqfancybox.js [L,NC]
 
-RewriteRule ^([A-z0-9_.-]+)\.css$ css/$1.css
-RewriteRule ^([A-z0-9_.-]+)\.js$ js/$1.js
+RewriteRule ^([A-z0-9_.-]+)\.css$ css/$1.css [L,NC]
+RewriteRule ^([A-z0-9_.-]+)\.js$ js/$1.js [L,NC]
 
-RewriteRule ^(.*)\.css$ accelerator\.php?file=$1.css [L,NC]
-RewriteRule ^(.*)\.js$ accelerator\.php?file=$1.js [L,NC]
+#RewriteRule ^(.*)\.css$ accelerator\.php?file=$1.css [L,NC]
+#RewriteRule ^(.*)\.js$ accelerator\.php?file=$1.js [L,NC]
 
 RewriteRule ^(icon|images)/(.*)$ css/$1/$2 [L,NC]
 
