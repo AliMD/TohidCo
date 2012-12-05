@@ -255,11 +255,12 @@
 
 #fancybox-title {
 	font-family: Helvetica;
-	font-size: 12px;
+	font-size: 15px;
 	z-index: 1102;
 	overflow:hidden;
-	height:85px;
+	height:65px;
 	position:relative;
+	margin-right: 9px;
 }
 
 .fancybox-title-inside {
@@ -287,7 +288,7 @@
 	padding: 10px;
 	background-image: url('icon/fancy_title_over.png');
 	width:auto;
-	height:85px;
+	height:45px;
 	position:relative;
 }
 	#fancybox-name-over {
