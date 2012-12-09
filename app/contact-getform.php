@@ -6,15 +6,11 @@ if ( isset($_REQUEST['submit']) ) {
 	$fullName = $_REQUEST['fullname'];
 	$phone = $_REQUEST['phone'];
 	$email = $_REQUEST['email'];
-	$subject = $_REQUEST['subject'];
+	$subject = "Website Contact : $_REQUEST[subject]";
 	$message = $_REQUEST['message'];
 	
-	$header = "From: $fullName &#60;$email&#62;";
-	$messageBody = 
-"Name: $fullName<br />
-Phone: $phone<br />
-<br />
-$message";
+	$header = "From:Tohid Foundry<info@tohid.co>\r\nReply-To:$fullName<$email>";
+	$messageBody ="Name: $fullName\nPhone: $phone\n\n$message";
 	
 	switch ( $department ) {
 		case 'ac':
