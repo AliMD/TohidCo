@@ -18,40 +18,43 @@ $message";
 	
 	switch ( $department ) {
 		case 'ac':
-			$recipient = "commercial@tohidkhorasan.com";
+			$recipient = "commercial@tohid.co";
 		break;
 		case 'ma':
-			$recipient = "finance@tohidkhorasan.com";
+			$recipient = "finance@tohid.co";
 		break;
 		case 'pl':
-			$recipient = "planing@tohidkhorasan.com";
+			$recipient = "planing@tohid.co";
 		break;
 		case 'ed':
-			$recipient = "office@tohidkhorasan.com";
+			$recipient = "office@tohid.co";
 		break;
 		case 'qc':
-			$recipient = "quality_control@tohidkhorasan.com";
+			$recipient = "quality_control@tohid.co";
 		break;
 		case 'tc':
-			$recipient = "quality_assurance@tohidkhorasan.com";
+			$recipient = "quality_assurance@tohid.co";
 		break;
 		case 'en':
-			$recipient = "engineering@tohidkhorasan.com";
+			$recipient = "engineering@tohid.co";
 		break;
 		case 'ne':
-			$recipient = "maintenance@tohidkhorasan.com";
+			$recipient = "maintenance@tohid.co";
 		break;
 		case 'to':
-			$recipient = "produce@tohidkhorasan.com";
+			$recipient = "produce@tohid.co";
 		break;
 		case 'mn':
-			$recipient = "managment@tohidkhorasan.com";
+			$recipient = "managment@tohid.co";
 		break;
 		case 'it':
-			$recipient = "it@tohidkhorasan.com";
+			$recipient = "it@tohid.co";
+		break;
+		case 'web':
+			$recipient = "support@1dws.com";
 		break;
 		default:
-			$recipient = "info@tohidkhorasan.com";
+			$recipient = "info@tohid.co";
 	}
 	
 	@mail( $recipient ,$subject, $messageBody, $header );

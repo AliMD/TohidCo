@@ -174,6 +174,8 @@ include('template/header.php');
 
                                 <option value="it" >IT</option>
 
+                                <option value="web" >Web Master</option>
+
                                 
 
                             </select>
