@@ -224,19 +224,19 @@ AddType text/vtt						vtt
 
 <FilesMatch "\.combined\.js$">
 	Options +Includes
-	AddOutputFilterByType INCLUDES application/javascript application/json
+	#AddOutputFilterByType INCLUDES application/javascript application/json
 	SetOutputFilter INCLUDES
 </FilesMatch>
 
 <FilesMatch "\.combined\.css$">
 	Options +Includes
-	AddOutputFilterByType INCLUDES text/css
+	#AddOutputFilterByType INCLUDES text/css
 	SetOutputFilter INCLUDES
 </FilesMatch>
 
 
 # ----------------------------------------------------------------------
-# Search Engine Friendly URLs (SEF) for ParsEngCo (This website only)
+# Search Engine Friendly URLs (SEF) for TohidCo (This website only)
 # ----------------------------------------------------------------------
 
 RewriteRule ^jqfancybox\.css$ fancybox-jiggle/jqfancybox.css [L,NC]
