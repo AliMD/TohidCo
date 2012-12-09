@@ -53,7 +53,7 @@ if ( isset($_REQUEST['submit']) ) {
 			$recipient = "info@tohid.co";
 	}
 	
-	@mail( $recipient ,$subject, $messageBody, $header );
+	mail( $recipient ,$subject, $messageBody, $header );
 	
 	if ( $_REQUEST['submit'] != 'ارسال فرم' ) {
 		header( "Location: contact-us.php?sent" );
