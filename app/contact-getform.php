@@ -1,4 +1,4 @@
-﻿<?php 
+﻿<?php
 
 if ( isset($_REQUEST['submit']) ) {
 	
@@ -72,5 +72,3 @@ $message";
 		header( "Location: contact-us_fa.php?conterr" );
 	}
 }
-
-?>

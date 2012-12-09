@@ -131,6 +131,8 @@ include('template/header_fa.php');
 
                                 <option value="it" >فناوری اطلاعات</option>
 
+                                <option value="web" >پشتیبانی سایت</option>
+
                             </select>
 
                             
