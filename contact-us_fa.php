@@ -10,19 +10,19 @@ include('template/header_fa.php');
 
 <!-- start ===== changeable =========================================================================================================================== -->
 
-    	<div class="all-pages-slider">
+		<div class="all-pages-slider">
 
-        	<?php include_once( "sliders/contact-slide-config.php" ); ?>
+			<?php include_once( "sliders/contact-slide-config.php" ); ?>
 
-        </div>
+		</div>
 
-        
+		
 
-        <div class="all-pages-text">
+		<div class="all-pages-text">
 
-            <!-- content ===== -->
+			<!-- content ===== -->
 
-                    <h2>تماس با ما</h2>
+					<h2>تماس با ما</h2>
 					<table>
 						<tr>
 							<td class="first">دفتر مشهد :</td>
@@ -51,174 +51,174 @@ include('template/header_fa.php');
 						</tr>
 					</table>
 
-                    <?php if ( isset($_REQUEST['sent']) ) { ?>
+					<?php if ( isset($_REQUEST['sent']) ) { ?>
 
-                    
+					
 
-                        <div class="form-wrraper">
+						<div class="form-wrraper">
 
-                            <div class="contact_messages" >
+							<div class="contact_messages" >
 
-                                از تماس شما سپاس گذاریم.<br />
+								از تماس شما سپاس گذاریم.<br />
 
-                                پیام شما با موفقیت ارسال شد.<br />
+								پیام شما با موفقیت ارسال شد.<br />
 
-                                لطفا برای بازگشت <a href="contact-us_fa.php">این جا</a> را کلیک نمایید.
+								لطفا برای بازگشت <a href="contact-us_fa.php">این جا</a> را کلیک نمایید.
 
-                            </div>
+							</div>
 
-                        </div>
+						</div>
 
-                    
+					
 
-                    <?php } else if ( isset($_REQUEST['conterr']) ) { ?>
+					<?php } else if ( isset($_REQUEST['conterr']) ) { ?>
 
-                    
+					
 
-                        <div class="form-wrraper">
+						<div class="form-wrraper">
 
-                            <div class="contact_messages" >
+							<div class="contact_messages" >
 
-                                اوه‌ه!<br />
+								اوه‌ه!<br />
 
-                                پیام شما ارسال نشد. به نظر می‌رسد مشکلی وجود داشت!<br />
+								پیام شما ارسال نشد. به نظر می‌رسد مشکلی وجود داشت!<br />
 
-                                لطفا <a href="contact-us_fa.php">دوباره</a> سعی نمایید.
+								لطفا <a href="contact-us_fa.php">دوباره</a> سعی نمایید.
 
-                            </div>
+							</div>
 
-                        </div>
+						</div>
 
-                    
+					
 
-                    <?php } else { ?>
+					<?php } else { ?>
 
-                    
+					
 
-                    <div class="form-wrraper">
+					<div class="form-wrraper">
 
-                        <form action="contact.php" method="post" onSubmit="return checkFormValidation(this);" >
+						<form action="contact.php" method="post" onSubmit="return checkFormValidation(this);" >
 
-                            
+							
 
-                            <div class="form_fields">
+							<div class="form_fields">
 
-                            
+							
 
-                            <select name="department" id="department" class="contact_form_field" onFocus="changeColor(this);" onBlur="backColor(this);" >
+							<select name="department" id="department" class="contact_form_field" onFocus="changeColor(this);" onBlur="backColor(this);" >
 
-                            	<option value="info" >پذیرش</option>
+								<option value="info" >پذیرش</option>
 
-                                <option value="ac" >بازرگانی</option>
+								<option value="ac" >بازرگانی</option>
 
-                                <option value="ma" >مالی</option>
+								<option value="ma" >مالی</option>
 
-                                <option value="pl" >برنامه ریزی</option>
+								<option value="pl" >برنامه ریزی</option>
 
-                                <option value="ed" >اداری</option>
+								<option value="ed" >اداری</option>
 
-                                <option value="qc" >کنترل کیفیت</option>
+								<option value="qc" >کنترل کیفیت</option>
 
-                                <option value="tc" >تضمین کیفیت</option>
+								<option value="tc" >تضمین کیفیت</option>
 
-                                <option value="en" >مهندسی</option>
+								<option value="en" >مهندسی</option>
 
-                                <option value="ne" >نگهداری و تعمیرات</option>
+								<option value="ne" >نگهداری و تعمیرات</option>
 
-                                <option value="to" >تولید</option>
+								<option value="to" >تولید</option>
 
-                                <option value="mn" >مدیریت</option>
+								<option value="mn" >مدیریت</option>
 
-                                <option value="it" >فناوری اطلاعات</option>
+								<option value="it" >فناوری اطلاعات</option>
 
-                                <option value="web" >پشتیبانی سایت</option>
+								<option value="web" >پشتیبانی سایت</option>
 
-                            </select>
+							</select>
 
-                            
+							
 
-                            <input type="text" name="fullname" id="fullname" class="contact_form_field" value="نام کامل *" 
+							<input type="text" name="fullname" id="fullname" class="contact_form_field" value="نام کامل *" 
 
-                                onFocus="runEvent.onFocus(this);" onBlur="runEvent.onBlur(this);" />
+								onFocus="runEvent.onFocus(this);" onBlur="runEvent.onBlur(this);" />
 
-                            
+							
 
-                            <input type="text" name="phone" id="phone" class="contact_form_field" value="شماره تلفن" 
+							<input type="text" name="phone" id="phone" class="contact_form_field" value="شماره تلفن" 
 
-                                onFocus="runEvent.onFocus(this); runEvent.direction(this, 'change');" 
+								onFocus="runEvent.onFocus(this); runEvent.direction(this, 'change');" 
 
-                                onBlur="if(this.value == '') runEvent.direction(this, 'back'); runEvent.onBlur(this);" />
+								onBlur="if(this.value == '') runEvent.direction(this, 'back'); runEvent.onBlur(this);" />
 
-                            
+							
 
-                            <input type="text" name="email" id="email" class="contact_form_field" value="آدرس ایمیل" 
+							<input type="text" name="email" id="email" class="contact_form_field" value="آدرس ایمیل" 
 
-                                onFocus="runEvent.onFocus(this); runEvent.direction(this, 'change');" 
+								onFocus="runEvent.onFocus(this); runEvent.direction(this, 'change');" 
 
-                                onBlur="if(this.value == '') runEvent.direction(this, 'back'); runEvent.onBlur(this);" />
+								onBlur="if(this.value == '') runEvent.direction(this, 'back'); runEvent.onBlur(this);" />
 
-                            
+							
 
-                            <input type="text" name="subject" id="subject" class="contact_form_field" value="موضوع *" 
+							<input type="text" name="subject" id="subject" class="contact_form_field" value="موضوع *" 
 
-                                onFocus="runEvent.onFocus(this);" onBlur="runEvent.onBlur(this);" />
+								onFocus="runEvent.onFocus(this);" onBlur="runEvent.onBlur(this);" />
 
-                            </div>
+							</div>
 
-                            
+							
 
-                            <div class="form_textarea">
+							<div class="form_textarea">
 
-                            <textarea name="message" id="message" 
+							<textarea name="message" id="message" 
 
-                                onFocus="runEvent.onFocus(this);" onBlur="runEvent.onBlur(this);" >پیام شما *</textarea>
+								onFocus="runEvent.onFocus(this);" onBlur="runEvent.onBlur(this);" >پیام شما *</textarea>
 
-                            </div>
+							</div>
 
-                            
+							
 
-                            
+							
 
-                            
+							
 
-                            <div class="form_buttons">
+							<div class="form_buttons">
 
-                            <span class="required">* الزامی</span>
+							<span class="required">* الزامی</span>
 
-                            <input type="reset" name="reset" id="reset" class="contact_form_btn" value="پاک کردن فرم" 
+							<input type="reset" name="reset" id="reset" class="contact_form_btn" value="پاک کردن فرم" 
 
-                                onClick="backColorOnReset();" />
+								onClick="backColorOnReset();" />
 
-                                
+								
 
-                            <input type="submit" name="submit" id="submit" class="contact_form_btn" value="ارسال فرم" />
+							<input type="submit" name="submit" id="submit" class="contact_form_btn" value="ارسال فرم" />
 
-                            </div>
+							</div>
 
-                            
+							
 
-                        </form>
+						</form>
 
-                        <span class="error_message" id="email_error"></span>
+						<span class="error_message" id="email_error"></span>
 
-                        <span class="error_message" id="fields_error"></span>
+						<span class="error_message" id="fields_error"></span>
 
-                    </div>
+					</div>
 
-                    
+					
 
-                    <?php } ?>
+					<?php } ?>
 
-                        
+						
 
-                        
+						
 
-        </div>
+		</div>
 
 <!-- end ===== changeable ============================================================================================================================= -->
 
-    </div><!-- end === main content ===== -->
+	</div><!-- end === main content ===== -->
 
-    
+	
 
-    <?php include('template/footer_fa.php'); ?>
+	<?php include('template/footer_fa.php'); ?>
