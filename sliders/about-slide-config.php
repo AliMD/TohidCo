@@ -12,9 +12,9 @@
     </script>
 
     <div id="slider" class="nivoSlider">
-        <img src="sliders/images/about_01.jpg"  alt="">
-        <img src="sliders/images/about_02.jpg"  alt="">
-        <img src="sliders/images/about_03.jpg"  alt="">
+        <img src="sliders/images/about_01.jpg"  alt="tohid foundry">
+        <img src="sliders/images/about_02.jpg"  alt="tohid foundry">
+        <img src="sliders/images/about_03.jpg"  alt="tohid foundry">
     </div>
     
 </div>
